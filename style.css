@@ -1,0 +1,33 @@
+h1{
+	font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+}
+h2{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+  font-weight: 600;
+	font-size: 40px;
+	text-align: center;
+	line-height: 80%;
+}
+p{
+	text-align: center;
+  font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 15px;
+	line-height: 80%;
+}
+img{
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	padding-top: 70px;
+}
+body{
+	background-color:#967bb6;
+
+}/* Add your custom styles here */
