@@ -60,12 +60,14 @@ personImg.src = person.fields.images[0].url;
 peopleContainer.appendChild(personImg);
 
 const personName = document.createElement("h2");
-personname.innerText = person.fields.name;
-peopleContainer.appendChild(personname);
+personName.innerText = person.fields.name;
+peopleContainer.appendChild(personName);
 
 const personBio = document.createElement("p");
 personbio.innerText = person.fields.bio;
-peopleContainer.appendChild(personbio);
+personContainer.appendChild(personBio);
+
+peopleContainer.appendChild(personContainer)
 
   });
 }
