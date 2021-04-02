@@ -55,19 +55,19 @@ function showPeople() {
 
 
     /**TO DO: Write JavaScript code to add each character's information onto the webpage**/
-const personImg = document.createElement("img");
-personImg.src = person.fields.images[0].url;
-peopleContainer.appendChild(personImg);
+const personImage = document.createElement("img");
+personImage.src = person.fields.images[0].url;
+peopleContainer.appendChild(personImage);
 
 const personName = document.createElement("h2");
 personName.innerText = person.fields.name;
 peopleContainer.appendChild(personName);
 
 const personBio = document.createElement("p");
-personbio.innerText = person.fields.bio;
-personContainer.appendChild(personBio);
+personBio.innerText = person.fields.bio;
+peopleContainer.appendChild(personBio);
 
-peopleContainer.appendChild(personContainer)
+
 
   });
 }

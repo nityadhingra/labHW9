@@ -1,33 +1,40 @@
+
+body{
+	background-color:#967bb6;
+
+}
+
 h1{
 	font-family: 'Roboto', sans-serif;
   font-weight: 800;
-	font-size: 60px;
-	color: white;
+	font-size: 80px;
+	color: #F13EA1;
 	text-align: center;
 }
 h2{
 	font-family: 'Roboto', sans-serif;
-	color: white;
+	color: #F13EA1;
   font-weight: 600;
-	font-size: 40px;
+	font-size: 50px;
 	text-align: center;
-	line-height: 80%;
+	
 }
 p{
 	text-align: center;
   font-family: 'Roboto', sans-serif;
-	color: white;
-	font-size: 15px;
-	line-height: 80%;
+	color: #1268AE;
+	font-size: 20px;
+	margin: 40px;
+	padding-left: 150px;
+	padding-right: 150px;
+
 }
 img{
-	width: 100px;
+	width: 250px;
 	display: flex;
 	justify-content: center;
 	margin: auto;
-	padding-top: 70px;
+	
 }
-body{
-	background-color:#967bb6;
 
-}/* Add your custom styles here */
+
